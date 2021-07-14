@@ -21,10 +21,7 @@ const novaRota = (req, res) => {
 
 module.exports = {
   home,
-<<<<<<< HEAD
   site,
   novaRota,
-=======
   list,
->>>>>>> 9ac5d0a55a82dd633c826547bfdd476a9e24f0a3
 };
