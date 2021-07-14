@@ -8,7 +8,12 @@ const site = (req, res) => {
   res.send(JSON.stringify({ site: 'Nova rota' }));
 };
 
+const novaRota = (req, res) => {
+  res.send("Teste de nova rota - Nova rota");
+};
+
 module.exports = {
   home,
   site,
+  novaRota,
 };
