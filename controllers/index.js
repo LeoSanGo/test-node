@@ -15,13 +15,14 @@ const list = (req, res) => {
   );
 };
 
+
+
 const novaRota = (req, res) => {
   res.send("Teste de nova rota - Nova rota");
 };
 
 module.exports = {
   home,
-  site,
   novaRota,
   list,
 };

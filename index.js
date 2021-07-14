@@ -4,7 +4,6 @@ const app = express();
 const indexRouter = require('./routes/index');
 
 app.use('/', indexRouter);
-app.use('/site', indexRouter);
 app.use('/nova', indexRouter)
 app.use('/list', indexRouter);
 
